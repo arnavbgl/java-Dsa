@@ -1,0 +1,39 @@
+public static void main
+
+
+public (Access Modifier)
+---This means the method is accessible from anywhere.
+---Since Java programs start execution from main(), it must be public so the JVM can access it.
+
+main:-
+---It is the entry point of the function 
+---This is the standard method name where Java starts execution.
+---If you change this name, Java won’t recognize it as the entry point.
+
+static:- 
+---static means this method belongs to the class itself, not an instance 
+---Agar main() static na hota, toh JVM ko pehle class ka object banana padta, jo unnecessary aur confusing hota.
+
+void:-
+---This means the method does not return any value.
+---main() is only meant to execute code, not return results.
+
+FUNCTION:-
+--- Syntax => Static void Function_name(){
+    body
+}
+--- if return write in function function will be finish at that point and never execute the code which is written after return statement in the function.
+--- return statement shuld bo only in those function which have return type not VOID.
+
+
+SCOPING:-
+
+
+BLOCK:==> 
+1==>Anything that initialise outside the block it will be use and update inside the block and anything that initialise inside the block it cannot use outside the block.
+2==> Anything that initialise outside it cannot initialise inside againg but anything that initialise inside it can be again initialise outside the block.
+
+
+SHADOWING:-
+
+Shadowing in java is a use of two variable with a same name within a scope that overlaps

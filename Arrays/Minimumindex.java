@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class Minimumindex {
     public static void main(String[] args) {
